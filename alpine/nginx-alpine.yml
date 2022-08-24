@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  nginx-alpine-container:
+    image: nginx/alpine:latest
+    container_name: ${NAME}
+    ports:
+      - "${PORT:-81}:80"
