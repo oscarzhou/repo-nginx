@@ -31,7 +31,7 @@ After cloning both repositories, the file structure should look like
 ## 2. A glimpse of each compose and env file 
 
 | File Path  | Compose File & .env file  |
-|---|---|---|
+|---|---|
 | repo-httpd  | ![](./assets/httpd-config.png)  |
 | repo-nginx  | ![](./assets/nginx-config.png)  |   
 | repo-nginx/alpine  | ![](./assets/alpine-config.png)  |   
