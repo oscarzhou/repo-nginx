@@ -1,0 +1,9 @@
+version: '3.1'
+services:
+  webapp:
+    image: nginx:alpine
+    restart: always
+    ports:
+      - "3002:80"
+    volumes:
+      - ./static:/usr/share/nginx/html
