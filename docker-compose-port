@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  nginx-container:
+    image: nginx:latest
+    labels:
+      - io.project-name=repo-nginx
+    ports:
+      - "${PORT:-81}:80"
