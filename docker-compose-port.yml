@@ -6,4 +6,4 @@ services:
     labels:
       - io.project-name=repo-nginx
     ports:
-      - "${PORT:-81}:80"
+      - "${SERVICE_PORT:-81}:80"
