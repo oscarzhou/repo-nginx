@@ -4,7 +4,7 @@ services:
   nginx-container:
     image: nginx:latest
     labels:
-      - io.project-name=repo-nginx
+      - io.project-name={repo-nginx-test}
     container_name: "${NAME}"
     ports:
       - "${PORT:-81}:80"
