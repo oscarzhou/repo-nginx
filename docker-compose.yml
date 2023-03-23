@@ -5,6 +5,6 @@ services:
     image: nginx:latest
     labels:
       - io.project-name=repo-nginx-test-1
-    container_name: nginx-docker
+    container_name: nginx-docker-1
     ports:
       - "${PORT:-81}:80"
