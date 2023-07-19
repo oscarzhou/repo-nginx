@@ -6,5 +6,13 @@ services:
     labels:
       - io.project-name=repo-nginx-test-1
     container_name: nginx-docker
+    networks:
+      - my_network
     ports:
       - "${PORT:-81}:80"
+networks:
+  my_network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.16.0.0/24
