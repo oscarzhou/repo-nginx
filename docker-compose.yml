@@ -4,7 +4,7 @@ services:
   nginx-container:
     image: nginx:latest
     labels:
-      - io.project-name=repo-nginx-test-20
+      - io.project-name=repo-nginx-test-21
     container_name: nginx-docker
     networks:
       - my_network
